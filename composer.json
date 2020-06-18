@@ -2,7 +2,7 @@
     "name": "prophecy/promise",
     "description": "A response handler for laravel.",
     "type": "package",
-    "license": "GPL",
+    "license": "CC-BY-3.0",
     "authors": [
         {
             "name": "theprophecy",
