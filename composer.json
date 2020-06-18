@@ -1,0 +1,20 @@
+{
+    "name": "prophecy/promise",
+    "description": "A response handler for laravel.",
+    "type": "package",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "theprophecy",
+            "email": "thearyanahmed@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Promise\\": "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {}
+}
