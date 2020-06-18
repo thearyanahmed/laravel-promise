@@ -16,5 +16,9 @@
     },
 
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php" : "^7.2.5",
+        "illuminate/support": "^1.0",
+        "illuminate/database": "^1.0"
+    }
 }
