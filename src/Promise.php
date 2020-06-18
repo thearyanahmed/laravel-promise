@@ -1,6 +1,6 @@
 <?php
 
-namespace Promise;
+namespace Prophecy\Promise;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
