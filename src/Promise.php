@@ -68,17 +68,6 @@ trait Promise
      */
     private $content;
 
-    /**
-     * Responder constructor.
-     * @param null $content
-     * @param string|null $key
-     */
-    public function __construct($content = null,string $key = null)
-    {
-        if($content) {
-            $this->content($content,$key);
-        }
-    }
 
     /**
      * Sets headers
