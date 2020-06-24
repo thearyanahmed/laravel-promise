@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Str;
 
-Class Responder
+class Responder
 {
     /**
      * @var string for all api responses
