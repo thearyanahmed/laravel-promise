@@ -12,7 +12,9 @@
     "autoload": {
         "psr-4": {
             "Prophecy\\Promise\\": "src/"
-        }
+        },
+        "src/helpers/promise.php"
+
     },
 
     "minimum-stability": "dev",
