@@ -13,8 +13,9 @@
         "psr-4": {
             "Prophecy\\Promise\\": "src/"
         },
-        "src/helpers/promise.php"
-
+        "files": [
+            "src/helpers/promise.php"
+        ]
     },
 
     "minimum-stability": "dev",
