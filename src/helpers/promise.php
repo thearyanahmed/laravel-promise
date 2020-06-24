@@ -2,7 +2,7 @@
 
 if(!function_exists('res')) {
     function res($content = null,string $key = null) {
-        $res = app( Prophecy\Promise::class);
+        $res = app( Prophecy\Promise\Responder::class);
 
         if($content) {
             $res = $res->content($content,$key);
