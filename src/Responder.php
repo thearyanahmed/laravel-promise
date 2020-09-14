@@ -201,7 +201,15 @@ class Responder
         }
 
         if(is_array($content)) {
-            $meta[$key] = $content;
+            if($this->key) {
+                $meta[$key] = $content;
+                return  $meta;
+            }
+            $meta = (object) $meta;
+
+            foreach($content as $key => $data) {
+                $meta->{$key} = $data; 
+            }
             return $meta;
         }
 
